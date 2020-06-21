@@ -430,7 +430,7 @@ typedef struct _GLFWlibraryX11
     XContext        context;
     // XIM input method
     XIM             im;
-    // Most recent error code received by X error handler
+    // Most recent error code received by XOffset error handler
     int             errorCode;
     // Primary selection string (while the primary selection is owned)
     char*           primarySelectionString;
